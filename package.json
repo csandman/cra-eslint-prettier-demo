@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettify": "prettier --write \"**/*.*(js|s?css)\""
+    "prettify": "prettier --write \"**/*.{js,ts,css,less,scss,vue,json,gql,md}\""
   },
   "eslintConfig": {
     "extends": [
@@ -34,6 +34,8 @@
           ]
         }
       ],
+      "no-console": "off",
+      "no-param-reassign": "off",
       "react/prop-types": 0,
       "no-underscore-dangle": 0,
       "import/imports-first": [
